@@ -187,7 +187,6 @@ groups>.left {
 .text-center {
     text-align: center;
 }
-
 .skills-header {
     margin: 70px 0px 0px 0px;
 }
@@ -255,7 +254,7 @@ div a {
 /* support section styles */
 .support {
 
-    width: 900px;
+    width: 880px;
     height: 170px;
     display: flex;
     flex-direction: column;
