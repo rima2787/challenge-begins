@@ -8,11 +8,11 @@ body {
 .banner-section {
     height: 600px;
     width: 1300px;
-    background-image: url('../assets/Group.png');
+    background-image: url('../assets/Hero-bg.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 
 .banner {
