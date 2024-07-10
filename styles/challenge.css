@@ -12,7 +12,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* margin: 0 auto; */
+    margin: 0 auto;
 }
 
 .banner {
@@ -56,7 +56,7 @@ body {
 /* why web developement section styles */
 
 .web-dev {
-    width: 1100px;
+    width: 950px;
     height: 1300px;
     /* top: 800px;
     bottom: 2900px; */
@@ -121,6 +121,35 @@ body {
 groups>.left {
     margin-right: 100px;
 }
+/* my inspiration section styles */
+.inspi-contain {
+    width: 950px;
+    height: 750px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 64px;
+}
+
+.inspi-title {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    margin: 18px 0px;
+}
+
+.inspi-description {
+    color: rgb(13, 19, 33);
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+
 
 /* skills section styles */
 
@@ -191,10 +220,11 @@ div ul li {
     color: rgb(13, 19, 33);
 }
 
-/* footer section styles */
-.foot {
 
-    width: 950px;
+/* support section styles */
+.support {
+
+    width: 900px;
     height: 170px;
     display: flex;
     flex-direction: column;
@@ -210,17 +240,16 @@ div ul li {
     background-repeat: no-repeat;
 
 }
-
-.foot {
+.support{ 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 64px 48px;
 
-}
+} 
 
-.foot-title {
+.support-title {
 
     color: rgb(255, 255, 255);
     text-align: center;
@@ -228,7 +257,7 @@ div ul li {
 
 }
 
-.foot-description {
+.support-description {
     color: rgb(255, 255, 255);
     font-size: 10px;
     font-weight: 300;
@@ -236,7 +265,7 @@ div ul li {
     margin: 20px 0px;
 }
 
-.foot-box {
+.support-box {
     box-sizing: border-box;
     border-radius: 6px;
     width: 350px;
@@ -256,8 +285,8 @@ div ul li {
     margin: 0px 8px;
 }
 
-/* footer second div */
-.second-section {
+/* footer section style */
+.footer-section {
     width: 1100px;
     height: 60px;
     margin: 0 auto;
@@ -270,20 +299,18 @@ div ul li {
     padding: 15px 100px;
 
 }
-.second-div-title {
+
+.footer-title {
     color: rgb(13, 19, 33);
     font-size: 15px;
     font-weight: 600;
     text-align: center;
 }
- 
-.second-div-icon {
+
+.footer-icon {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 20px;
-
-
-
 }
